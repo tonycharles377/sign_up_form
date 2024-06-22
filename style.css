@@ -16,11 +16,20 @@ img{
     min-height: auto;
 }
 
-/* .shoutout{
+.shoutout{
     position: absolute;
     bottom: 0;
     left: 0;
-} */
+    padding-left: 4rem;
+    padding-bottom: 1rem;
+    color: black;
+    font-weight: bold;
+}
+
+.shoutout a{
+    color: black;
+    text-decoration: underline;
+}
 
 /* container-two */
 

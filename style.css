@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+}
+
+/* container-one */
+
+img{
+    font-style: italic;
+    max-width: 100%;
+    min-height: auto;
+}
+
+/* .shoutout{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+} */
+
+/* container-two */
+
+.container-two{
+    background-color: #f7f7f7;
+    padding: 10rem 0;
+    max-height: 100%;
+}
+
+.sect-one{
+    padding: 0 2rem;
+    padding-bottom: 1rem;
+}
+
+.sect-two{
+    padding: 1rem 2rem;
+}
+
+.sect-three{
+    padding: 0 2rem;
+    padding-top: 1.3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.sect-two{
+    background-color: #fff;
+}
+
+.name,
+.email,
+.password{
+    display: flex;
+    gap: 3rem;
+}
+
+.email,
+.password{
+    padding-top: 1rem;
+}
+
+p{
+    font-size: 1.5rem;
+    display: block;
+    margin-bottom: 1em;
+}
+
+.field-input{
+    background-color: #fff;
+}
+
+li{
+    list-style-type: none;
+}
+
+button{
+    padding: .7rem 2rem;
+    border-radius: 5px;
+    border: none;
+    font-weight: bold;
+    background-color: blue;
+    color: #fff;
+    max-width: 180px;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: #2424c5;
+}
+
+span a{
+    text-decoration: none;
+    color: blue;
+}
+
+.sect-three span{
+    font-weight: 500;
+}
+
+label{
+    font-size: smaller;
+}
+
+input{
+    border: 1px solid #E5E7EB;
+    border-radius: 2px;
+}
